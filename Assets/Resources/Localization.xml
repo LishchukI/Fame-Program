@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Keys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+	<Key Name="MoveRight">
+		<Translates>
+			<ua>Піти праворуч</ua>
+			<en-us>Move right</en-us>
+			<ru>Пойти вправо</ru>
+		</Translates>
+	</Key>
+  
+  <Key Name="MoveLeft">
+    <Translates>
+      <ua>Піти ліворуч</ua>
+      <en-us>Move left</en-us>
+      <ru>Пойти влево</ru>
+    </Translates>
+  </Key>
+  
+  <Key Name="MoveDown">
+    <Translates>
+      <ua>Піти вниз</ua>
+      <en-us>Move down</en-us>
+      <ru>Пойти вниз</ru>
+    </Translates>
+  </Key>
+  
+	<Key Name="MoveUp">
+		<Translates>
+			<ua>Піти вверх</ua>
+			<en-us>Move up</en-us>
+			<ru>Пойти вверх</ru>
+		</Translates>
+	</Key>
+  
+  
+  <Key Name="If">
+    <Translates>
+      <ua>Якщо</ua>
+      <en-us>If</en-us>
+      <ru>Если</ru>
+    </Translates>
+  </Key>
+  
+  <Key Name="ObstacleRight">
+    <Translates>
+      <ua>перешкода справа</ua>
+      <en-us>obstacle right</en-us>
+      <ru>препятствие справа</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="ObstacleLeft">
+    <Translates>
+      <ua>перешкода зліва</ua>
+      <en-us>obstacle left</en-us>
+      <ru>препятствие слева</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="ObstacleDown">
+    <Translates>
+      <ua>перешкода знизу</ua>
+      <en-us>obstacle down</en-us>
+      <ru>препятствие снизу</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="ObstacleUp">
+    <Translates>
+      <ua>перешкода зверху</ua>
+      <en-us>obstacle up</en-us>
+      <ru>препятствие сверху</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="ObstacleNotRight">
+    <Translates>
+      <ua>перешкода не справа</ua>
+      <en-us>obstacle no right</en-us>
+      <ru>препятствие не справа</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="ObstacleNotLeft">
+    <Translates>
+      <ua>перешкода не зліва</ua>
+      <en-us>obstacle no left</en-us>
+      <ru>препятствие не слева</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="ObstacleNotDown">
+    <Translates>
+      <ua>перешкода не знизу</ua>
+      <en-us>obstacle no down</en-us>
+      <ru>препятствие не снизу</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="ObstacleNotUp">
+    <Translates>
+      <ua>перешкода не зверху</ua>
+      <en-us>obstacle no up</en-us>
+      <ru>препятствие не сверху</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="FieldWtihTag">
+    <Translates>
+      <ua>поле зі скринею</ua>
+      <en-us>field with chest</en-us>
+      <ru>поле с сундуком</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="FieldEmpty">
+    <Translates>
+      <ua>поле пусте</ua>
+      <en-us>field empty</en-us>
+      <ru>поле пустое</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="If ObstacleRight">
+    <Translates>
+      <ua>Якщо (перешкода справа)</ua>
+      <en-us>If (obstacle right)</en-us>
+      <ru>Если (препятствие справа)</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="If ObstacleLeft">
+    <Translates>
+      <ua>Якщо (перешкода зліва)</ua>
+      <en-us>If (obstacle left)</en-us>
+      <ru>Если (препятствие слева)</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="If ObstacleDown">
+    <Translates>
+      <ua>Якщо (перешкода знизу)</ua>
+      <en-us>If (obstacle down)</en-us>
+      <ru>Если (препятствие снизу)</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="If ObstacleUp">
+    <Translates>
+      <ua>Якщо (перешкода зверху)</ua>
+      <en-us>If (obstacle up)</en-us>
+      <ru>Если (препятствие сверху)</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="If ObstacleNotRight">
+    <Translates>
+      <ua>Якщо (перешкода не справа)</ua>
+      <en-us>If (obstacle not right)</en-us>
+      <ru>Если (препятствие не справа)</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="If ObstacleNotLeft">
+    <Translates>
+      <ua>Якщо (перешкода не зліва)</ua>
+      <en-us>If (obstacle not left)</en-us>
+      <ru>Если (препятствие не слева)</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="If ObstacleNotDown">
+    <Translates>
+      <ua>Якщо (перешкода не знизу)</ua>
+      <en-us>If (obstacle not down)</en-us>
+      <ru>Если (препятствие не снизу)</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="If ObstacleNotUp">
+    <Translates>
+      <ua>Якщо (перешкода не зверху)</ua>
+      <en-us>If (obstacle not up)</en-us>
+      <ru>Если (препятствие не сверху)</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="If FieldWtihTag">
+    <Translates>
+      <ua>Якщо (поле зі скринею)</ua>
+      <en-us>If (field with chest)</en-us>
+      <ru>Если (поле с сундуком)</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="If FieldEmpty">
+    <Translates>
+      <ua>Якщо (поле пусте)</ua>
+      <en-us>If (field empty)</en-us>
+      <ru>Если (поле пустое)</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="Else">
+    <Translates>
+      <ua>Інакше</ua>
+      <en-us>Else</en-us>
+      <ru>Иначе</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="EndCondition">
+    <Translates>
+      <ua>Кінець умови</ua>
+      <en-us>End condition</en-us>
+      <ru>Конец условия</ru>
+    </Translates>
+  </Key>
+
+  
+  <Key Name="RepeatTimes">
+    <Translates>
+      <ua>Повторити разів:</ua>
+      <en-us>Repeat times:</en-us>
+      <ru>Повторить раз:</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="EndLoop">
+    <Translates>
+      <ua>Кінець циклу</ua>
+      <en-us>End loop</en-us>
+      <ru>Конец цикла</ru>
+    </Translates>
+  </Key>
+  
+  <Key Name="DeleteCommand">
+    <Translates>
+      <ua>Видалити команду</ua>
+      <en-us>Delete command</en-us>
+      <ru>Удалить команду</ru>
+    </Translates>
+  </Key>
+  
+  <Key Name="StartWork">
+    <Translates>
+      <ua>Почати виконання</ua>
+      <en-us>Start work</en-us>
+      <ru>Начать выполнение</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="PutChest">
+    <Translates>
+      <ua>Поставити скриню</ua>
+      <en-us>Put chest</en-us>
+      <ru>Поставить сундук</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="PickUpChest">
+    <Translates>
+      <ua>Забрати скриню</ua>
+      <en-us>Pick up chest</en-us>
+      <ru>Забрать сундук</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="CompleteLevels">
+    <Translates>
+      <ua>Виконати рівні</ua>
+      <en-us>Complete levels</en-us>
+      <ru>Выполнить уровни</ru>
+    </Translates>
+  </Key>
+
+  <Key Name="SandboxMode">
+    <Translates>
+      <ua>Режим пісочниці</ua>
+      <en-us>Sandbox mode</en-us>
+      <ru>Режим песочницы</ru>
+    </Translates>
+  </Key>
+  
+
+</Keys>

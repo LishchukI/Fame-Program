@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ML.FastTree</id>
+    <version>1.5.5</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>mlnetlogo.png</icon>
+    <projectUrl>https://dot.net/ml</projectUrl>
+    <description>ML.NET component for FastTree</description>
+    <releaseNotes>https://aka.ms/mlnetreleasenotes</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>ML.NET ML Machine Learning</tags>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://devdiv.visualstudio.com/DevDiv/_git/DotNet-MachineLearning-Trusted" commit="58450d4f0709c237de95f31f8f05d46983c7a5c0" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.ML" version="1.5.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

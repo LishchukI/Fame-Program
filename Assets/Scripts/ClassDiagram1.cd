@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Game">
+    <Position X="15" Y="8.25" Width="1.5" />
+    <AssociationLine Name="algoritmList" Type="AlgorithmList" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.75" Y="12.434" />
+        <Point X="15.75" Y="12.809" />
+        <Point X="17.5" Y="12.809" />
+        <Point X="17.5" Y="12.18" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.302" Y="0.336" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="newFieldProperties" Type="NewFieldProperties" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15" Y="9.97" />
+        <Point X="14.75" Y="9.97" />
+        <Point X="14.75" Y="11.19" />
+        <Point X="13.875" Y="11.19" />
+        <Point X="13.875" Y="10.94" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.066" Y="0.278" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AASAAAAAACAAoBggCANAAAAAEAAAAAABAAFAAAAAABE=</HashCode>
+      <FileName>Assets\Scripts\Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="algoritmList" />
+      <Field Name="player" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="newFieldProperties" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Player">
+    <Position X="11.25" Y="6.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Player.PlayerCoordinate">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Player.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEYAiBAAAAAAACAAgWDIACACIAAgAAIUAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StartWork">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAIgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StartWork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LocalizedText">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAAAAAEAAIAAAAAAAAIAAACAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\LocalizationScript\LocalizedText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LocalizedDropdown">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAIAAAAAAAAAAICAAAAAAAAAAACAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\LocalizationScript\LocalizedDropdown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LocalizationManager">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="LocalizationManager.LanguageChangeHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\LocalizationScript\LocalizationManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAACAAAAAAAAAKAAAAAAAAAAAAAIAAAAIQAEA=</HashCode>
+      <FileName>Assets\Scripts\LocalizationScript\LocalizationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InsctructionsListManager">
+    <Position X="18.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQAECBAAAAAAEAAQAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ListScript\InsctructionsListManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlgorithmList">
+    <Position X="16.75" Y="8.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="AlgorithmList.ItemList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ListScript\AlgoritmList.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAggAACIAAAAgAAAAAAAAAABAQAAAACBQ=</HashCode>
+      <FileName>Assets\Scripts\ListScript\AlgoritmList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputFieldManager">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameElementsScript\InputFieldManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewFieldProperties">
+    <Position X="13" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAABAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameElementsScript\FieldProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DropdownManager">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameElementsScript\DropdownManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BrainCloudConnectScene" Collapsed="true">
+    <Position X="5.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAACAAAQAAQAAABQAAAAgAgAAAAACAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AuthorizationScript\BrainCloudConnectScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="App">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAEg=</HashCode>
+      <FileName>Assets\Scripts\AuthorizationScript\App.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Bc" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="12.5" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BrainCloudWrapper" Collapsed="true">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <NestedTypes>
+      <Class Name="BrainCloudWrapper.WrapperData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\BrainCloud\Client\BrainCloud\BrainCloudWrapper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>JuSFIDUBCb1TMYSGACsJohy5AQIACjjYigTi4oEA4RQ=</HashCode>
+      <FileName>Assets\BrainCloud\Client\BrainCloud\BrainCloudWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
